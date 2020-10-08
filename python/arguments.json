@@ -1,0 +1,37 @@
+{
+    "-B": {
+        "arg": "--build",
+        "help": "Builds the Docker Image from Scratch",
+        "action": "store_true"
+    },
+    "-U": {
+        "arg": "--update",
+        "help": "Calls the Containers Update Commands",
+        "action": "store_true"
+    },
+    "-P": {
+        "arg": "--push",
+        "help": "Push the dockerfiles to a designated registry.",
+        "action": "store_true"
+    },
+    "-D": {
+        "arg": "--deploy",
+        "help": "Deploys the FreeRADIUS Docker Container.",
+        "action": "store_true"
+    },
+    "-T": {
+        "arg": "--test",
+        "help": "Tests FreeRADIUS Okta Integrations.",
+        "action": "store_true"
+    },
+    "-L": {
+        "arg": "--log",
+        "help": "Display Container Logs after 30 Seconds.",
+        "action": "store_true"
+    },
+    "-F": {
+        "arg": "--force",
+        "help": "If a requirement for a command is missing, executes required action.",
+        "action": "store_true"
+    }
+}

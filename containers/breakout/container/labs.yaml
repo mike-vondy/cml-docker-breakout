@@ -1,0 +1,18 @@
+db21be:
+  enabled: false
+  lab_description: ""
+  lab_title: This is a lab.
+  nodes:
+    n1:
+      devices:
+      - enabled: true
+        listen_port: 9000
+        name: serial0
+        running: false
+        status: ""
+      - enabled: false
+        listen_port: 9001
+        name: serial1
+        running: false
+        status: ""
+      label: iosvl2-0
